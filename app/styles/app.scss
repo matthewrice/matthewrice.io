@@ -1,0 +1,82 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+//////////////////////////////// NAV BAR /////////////////////////////////////
+.myNavBar{
+  height: 10vh;
+  background-color: rgb(255,255,255);
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 0;
+  padding: 0;
+}
+
+.navBarContent{
+
+  .websiteName{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .navLinks{
+    padding-top: 3.5vh;
+    text-align: center;
+  }
+}
+
+
+////////////////////////////// HOME PAGE  ////////////////////////////////////
+.homepageSection{
+  background-image: url('../images/sesamestreet.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+
+//////////////////////////////// PORTFOLIO ///////////////////////////////////
+.portfolio{
+  background-image: url('../images/muppets.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+
+///////////////////////////////// RESUME /////////////////////////////////////
+.resume{
+  background-image: url('../images/funfunfun.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+
+/////////////////////////////// BIOGRAPHY ////////////////////////////////////
+.engagingBiography{
+
+}
+
+
+////////////////////////////// CONTACT INFO //////////////////////////////////
+.contactMe{
+
+}
