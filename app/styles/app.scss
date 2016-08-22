@@ -254,9 +254,9 @@ img {
 
 //////////////////////////////// PORTFOLIO ///////////////////////////////////
 .portfolio{
-  padding-bottom: 30px;
+  padding-bottom: 55px;
   background-color: rgb(82,81,89);
-  position: absolute;
+  // position: absolute;
 
   .portfolioTitleContainer{
     color: rgb(0,130,214);
@@ -272,19 +272,6 @@ img {
 
     img{
       padding: 7.5px;
-      // position: relative;
-      //
-      // &:hover{
-      //   &:before{
-      //     content: "";
-      //     background-color: rgba(156, 156, 156, 0.4);
-      //     position: absolute;
-      //     top: 0;
-      //     bottom: 0;
-      //     left: 0;
-      //     right: 0;
-      //   }
-      // }
     }
   }
 }
@@ -417,12 +404,37 @@ img {
 
 
 ///////////////////////////////// RESUME /////////////////////////////////////
-// .resume{
-//   background-image: url('../images/funfunfun.jpg');
-//   background-size: cover;
-//   background-repeat: no-repeat;
-//   height: 100vh;
-// }
+.resume{
+  background-color: rgb(198,198,198);
+  padding-bottom: 50px;
+
+  .resumeContainer{
+    color: rgb(0,130,214);
+    text-shadow: 1px 2px rgb(0,0,0);
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+}
+
+.digitalResume{
+  background-color: rgb(255,255,255);
+  border: 1px solid rgb(167,167,168);
+  padding: 10px;
+  height: 800px;
+}
+
+.skillsTitle,
+.experienceTitle,
+.educationTitle{
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: rgb(82,81,89);
+  font-size: 30px;
+}
 
 
 /////////////////////////////// BIOGRAPHY ////////////////////////////////////
