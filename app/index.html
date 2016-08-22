@@ -3,35 +3,56 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-    <title>matthewrice io</title>
+    <title>Matthew Rice</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body class="container-fluid myContainer">
 
     <div class="row wrapper">
 
-      <div class="navbar myNavBar">
-        <div class="col-md-12">
+      <div class="navbar-fixed-top myNavBar">
+        <div class="col-md-12 navBarColumns">
           <div class="navBarContent">
-            <div class="col-md-2 websiteName">matthewrice.io</div>
-            <div class="col-md-1 navLinks"><a href="#intro">Home</a></div>
-            <div class="col-md-1 navLinks"><a href="#portfolio">My Portfolio</a></div>
-            <div class="col-md-1 navLinks"><a href="#resume">Resume</a></div>
-            <div class="col-md-2 navLinks"><a href="#engagingBiography">What Makes Me Tick</a></div>
-            <div class="col-md-1 navLinks"><a href="#contactMe">Contact Me</a></div>
+            <span class="navLinks"><a href="#intro">Home</a></span>
+            <span class="navLinks"><a href="#portfolio">Portfolio</a></span>
+            <span class="navLinks"><a href="#resume">Resume</a></span>
+            <span class="navLinks"><a href="#engagingBiography">About</a></span>
+            <span class=""><a href="#contactMe">Contact</a></span>
           </div>
         </div>
       </div>
 
       <a name="intro">
         <div class="intro">
-
+          <div class="introContent col-xs-8">
+            <div class="myName">Matthew Rice</div>
+            <div class="jobTitle">Front End Web Developer</div>
+          </div>
         </div>
       </a>
 
       <a name="portfolio">
         <div class="portfolio">
-
+          <div class="portfolioTitleContainer col-xs-12">
+            <i class="fa fa-briefcase briefcaseIcon" aria-hidden="true"></i>
+            <span class="portfolioTitle">Portfolio</span>
+          </div>
+          <div class="myPortfolio col-xs-offset-1 col-xs-10">
+            <a href="https://matthewrice.github.io/FullScope/">
+              <img class="col-xs-6 fullScope" src="images/FullScope.png" />
+            </a>
+            <a href="http://matthewrice.github.io/Etsy-Recreation/">
+              <img class="col-xs-6" src="images/Etsy.png" />
+            </a>
+            <a href="http://matthewrice.github.io/Powell-Peralta-Skateboards/">
+              <img class="col-xs-6" src="images/Skateboard.png" />
+            </a>
+            <a href="http://matthewrice.github.io/Surf-n-Paddle-blog/">
+              <img class="col-xs-6" src="images/PaddleBoard.png" />
+            </a>
+          </div>
         </div>
       </a>
 
@@ -55,6 +76,7 @@
 
     </div>
 
+    <script src="https://use.fontawesome.com/d247732d33.js"></script>
     <script src="js/bundle.js"></script>
   </body>
 </html>
