@@ -5832,6 +5832,47 @@ img {
     padding-top: 25vh;
     text-align: center; }
 
+@media (max-width: 1380px) {
+  .intro .introContent {
+    padding-top: 30vh; } }
+@media (max-width: 1300px) {
+  .intro .introContent {
+    padding-top: 32vh; } }
+@media (max-width: 1200px) {
+  .intro .introContent {
+    padding-top: 34vh; } }
+@media (max-width: 995px) {
+  .intro .introContent {
+    padding-top: 36vh; } }
+@media (max-width: 860px) {
+  .intro .introContent {
+    padding-top: 37vh; } }
+@media (max-width: 700px) {
+  .intro .introContent {
+    padding-top: 38vh; } }
+@media (max-width: 600px) {
+  .intro .introContent {
+    padding-top: 40vh; } }
+@media (max-width: 542px) {
+  .intro .introContent {
+    padding-top: 41vh;
+    margin-left: 5vw; } }
+@media (max-width: 486px) {
+  .intro .introContent {
+    padding-top: 42vh; } }
+@media (max-width: 431px) {
+  .intro .introContent {
+    padding-top: 43vh; } }
+@media (max-width: 414px) {
+  .intro .introContent {
+    padding-top: 44vh; } }
+@media (max-width: 360px) {
+  .intro .introContent {
+    padding-top: 45vh;
+    margin-left: 6vw; } }
+@media (max-width: 333px) {
+  .intro .introContent {
+    padding-top: 46vh; } }
 .myName,
 .jobTitle {
   color: #0082d6;
@@ -5851,7 +5892,7 @@ img {
 
   .jobTitle {
     font-size: 35px; } }
-@media (max-width: 1380px) {
+@media (max-width: 1300px) {
   .myName {
     font-size: 80px; }
 
@@ -5886,7 +5927,8 @@ img {
     font-size: 45px; }
 
   .jobTitle {
-    font-size: 18px; } }
+    font-size: 18px;
+    text-shadow: 1px 1px black; } }
 @media (max-width: 542px) {
   .myName {
     font-size: 40px; } }
