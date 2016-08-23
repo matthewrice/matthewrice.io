@@ -610,7 +610,7 @@ img {
   padding-bottom: 50px;
 
   .resumeContainer{
-    color: rgb(0,130,214);
+    color: rgb(255,255,255);
     text-shadow: 1px 2px rgb(0,0,0);
     font-family: 'Cinzel', serif;
     font-size: 40px;
@@ -662,7 +662,8 @@ img {
 }
 
 .theIronYardLogo{
-  margin-top: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
   padding: 0;
 }
 
@@ -670,7 +671,8 @@ img {
   font-family: 'Cinzel', serif;
   font-size: 20px;
   color: rgb(82,81,89);
-  padding-top: 5px;
+  text-align: center;
+  padding-top: 25px;
   padding-left: 0;
 
   .theIronYardTitle{
@@ -682,13 +684,6 @@ img {
   }
 }
 
-.educationBlurb{
-  margin-top: 20px;
-  font-family: 'Cinzel', serif;
-  font-size: 15px;
-  color: rgb(82,81,89);
-}
-
 .fullResumeContainer{
   margin-top: 30px;
   margin-bottom: 20px;
@@ -697,30 +692,128 @@ img {
   .fullResume{
     color: rgb(82,81,89);
     font-family: 'Cinzel', serif;
-    font-size: 25px;
+    font-size: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 5px;
     background-color: rgb(82,81,89);
-    color: rgb(0,130,214);
+    color: rgb(255,255,255);
     text-shadow: 1px 2px rgb(0,0,0);
 
     &:hover{
-      box-shadow: 0 0 20px rgb(82,81,89);
+      background-color: rgb(73,73,73);
     }
   }
 }
 
 
-/////////////////////////////// BIOGRAPHY ////////////////////////////////////
-.engagingBiography{
+////////////////////////////////// ABOUT ///////////////////////////////////////
+.about{
+  background-color: rgb(82,81,89);
+  padding-bottom: 70px;
 
+  .aboutTitleContainer{
+    color: rgb(0,130,214);
+    text-shadow: 1px 2px rgb(0,0,0);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 40px;
+
+    .aboutTitle{
+      font-family: 'Cinzel', serif;
+    }
+  }
+}
+
+.aboutContentContainer{
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 25px;
+  font-family: 'EB Garamond', serif;
+  position: relative;
+  display: table;
+}
+
+.myPhoto{
+  padding-left: 0;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.aboutMe{
+  padding-top: 10px;
+  padding-right: 0;
+  color: rgb(0,0,0);
+
+  a{
+    color: black;
+
+    .hereLink{
+      color: rgb(0,130,214);
+      text-shadow: 1px 2px rgb(0,0,0);
+
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.aboutMeInfo{
+  margin-bottom: 15px;
 }
 
 
 ////////////////////////////// CONTACT INFO //////////////////////////////////
 .contactMe{
+  background-color: rgb(198,198,198);
+  padding-top: 10px;
+  padding-bottom: 100px;
+}
 
+.contactMeTitle{
+  font-family: 'Cinzel', serif;
+  color: rgb(255,255,255);
+  text-shadow: 1px 2px rgb(0,0,0);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.contactMeInfoContainer{
+  a{
+    color: rgb(82,81,89);
+
+    &:hover{
+      color: rgb(255,255,255);
+      text-shadow: 1px 2px rgb(0,0,0);
+    }
+  }
+}
+
+.phoneNumber,
+.email,
+.linkeInProfile,
+.twitterProfile,
+.homeTown,
+.githubAccount{
+  i{
+    font-size: 40px;
+  }
+}
+
+.myContactDetails{
+  font-size: 25px;
+  font-family: 'Cinzel', serif;
+  // font-weight: bold;
+}
+
+.contactRowSpacer{
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
