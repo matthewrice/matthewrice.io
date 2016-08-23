@@ -5928,7 +5928,7 @@ img {
   .portfolio .myPortfolio img {
     padding: 7.5px; }
     .portfolio .myPortfolio img:hover {
-      box-shadow: 0 0 10px #c6c6c6; }
+      box-shadow: 0 0 20px #c6c6c6; }
 
 @media (max-width: 1300px) {
   .portfolio .portfolioTitleContainer {
@@ -5994,14 +5994,65 @@ img {
     .portfolio .portfolioTitleContainer .portfolioTitle {
       font-size: 18px; } }
 .viewCode {
-  text-align: center;
-  font-size: 20px;
-  font-family: 'Cinzel', serif;
-  color: #0082d6;
-  text-shadow: 1px 2px black;
   margin-top: 5px;
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+  text-align: center; }
+  .viewCode a {
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+    color: #0082d6;
+    text-shadow: 1px 2px black; }
+    .viewCode a:hover {
+      text-shadow: 0px 0px; }
 
+@media (max-width: 725px) {
+  .viewCode {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center; }
+    .viewCode a {
+      font-size: 18px;
+      font-family: 'Cinzel', serif;
+      color: #0082d6;
+      text-shadow: 1px 2px black; }
+      .viewCode a:hover {
+        text-shadow: 0px 0px; } }
+@media (max-width: 620px) {
+  .viewCode {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: center; }
+    .viewCode a {
+      font-size: 16px;
+      font-family: 'Cinzel', serif;
+      color: #0082d6;
+      text-shadow: 1px 2px black; }
+      .viewCode a:hover {
+        text-shadow: 0px 0px; } }
+@media (max-width: 520px) {
+  .viewCode {
+    margin-top: 4px;
+    margin-bottom: 12px;
+    text-align: center; }
+    .viewCode a {
+      font-size: 14px;
+      font-family: 'Cinzel', serif;
+      color: #0082d6;
+      text-shadow: 1px 2px black; }
+      .viewCode a:hover {
+        text-shadow: 0px 0px; } }
+@media (max-width: 360px) {
+  .viewCode {
+    margin-top: 0px;
+    margin-bottom: 8px;
+    text-align: center; }
+    .viewCode a {
+      font-size: 12px;
+      font-family: 'Cinzel', serif;
+      color: #0082d6;
+      text-shadow: 1px 2px black; }
+      .viewCode a:hover {
+        text-shadow: 0px 0px; } }
 .resume {
   background-color: #c6c6c6;
   padding-bottom: 50px; }
@@ -6084,6 +6135,6 @@ img {
     color: #0082d6;
     text-shadow: 1px 2px black; }
     .fullResumeContainer .fullResume:hover {
-      box-shadow: 0 0 10px #525159; }
+      box-shadow: 0 0 20px #525159; }
 
 /*# sourceMappingURL=app.css.map */
