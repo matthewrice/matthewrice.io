@@ -5771,7 +5771,7 @@ img {
 
 .myNavBar {
   background-color: #525159;
-  width: 100%; }
+  max-width: 100%; }
 
 .navBarContent {
   padding-top: 3.5vh;
@@ -6608,9 +6608,9 @@ img {
     margin-bottom: 15px; }
 
   .aboutContentContainer {
-    width: 100%;
+    width: 84%;
     text-align: justify;
-    margin-left: 12vw; } }
+    margin-left: 16vw; } }
 .contactMe {
   background-color: #c6c6c6;
   padding-top: 10px;
