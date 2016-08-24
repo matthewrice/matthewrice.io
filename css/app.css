@@ -6626,18 +6626,40 @@ img {
   margin-bottom: 30px;
   font-size: 40px; }
 
+@media (max-width: 1300px) {
+  .contactMeTitle {
+    font-size: 35px; } }
+@media (max-width: 1100px) {
+  .contactMeTitle {
+    font-size: 32px; } }
+@media (max-width: 1000px) {
+  .contactMeTitle {
+    font-size: 30px; } }
+@media (max-width: 900px) {
+  .contactMeTitle {
+    font-size: 28px; } }
+@media (max-width: 750px) {
+  .contactMeTitle {
+    font-size: 26px; } }
+@media (max-width: 600px) {
+  .contactMeTitle {
+    font-size: 24px; } }
+@media (max-width: 450px) {
+  .contactMeTitle {
+    font-size: 22px; } }
+@media (max-width: 400px) {
+  .contactMeTitle {
+    font-size: 20px; } }
+@media (max-width: 360px) {
+  .contactMeTitle {
+    font-size: 18px; } }
 .contactMeInfoContainer a {
   color: #525159; }
   .contactMeInfoContainer a:hover {
     color: white;
     text-shadow: 1px 2px black; }
 
-.phoneNumber i,
-.email i,
-.linkeInProfile i,
-.twitterProfile i,
-.homeTown i,
-.githubAccount i {
+.myContactIcon i {
   font-size: 40px; }
 
 .myContactDetails {
@@ -6647,5 +6669,89 @@ img {
 .contactRowSpacer {
   margin-top: 15px;
   margin-bottom: 15px; }
+
+@media (max-width: 1113px) {
+  .myContactIcon i {
+    font-size: 32px; }
+
+  .myContactDetails {
+    font-size: 22px; } }
+@media (max-width: 790px) {
+  .myContactIcon i {
+    font-size: 30px; }
+
+  .myContactDetails {
+    font-size: 20px; } }
+@media (max-width: 736px) {
+  .myContactIcon i {
+    font-size: 28px; }
+
+  .myContactDetails {
+    font-size: 18px; } }
+@media (max-width: 683px) {
+  .myContactIcon i {
+    font-size: 26px; }
+
+  .myContactDetails {
+    font-size: 16px; } }
+@media (max-width: 630px) {
+  .myContactIcon i {
+    font-size: 24px; }
+
+  .myContactDetails {
+    font-size: 14px; } }
+@media (max-width: 576px) {
+  .myContactIcon i {
+    font-size: 22px; }
+
+  .myContactDetails {
+    font-size: 12px; } }
+@media (max-width: 523px) {
+  .contactMeTitle {
+    margin-bottom: 10px; }
+
+  .contactMe {
+    padding-bottom: 50px; }
+
+  .myPersonalContactInfo {
+    width: 100%;
+    text-align: center; }
+
+  .mySocialInfo {
+    width: 100%;
+    text-align: center; }
+
+  .myContactDetails {
+    font-size: 16px; }
+
+  .myLinkedIn {
+    top: 80px; }
+
+  .myEmail {
+    bottom: 30px; }
+
+  .myTwitter {
+    top: 50px; }
+
+  .myLocation {
+    bottom: 60px; }
+
+  .myGitHub {
+    top: 20px; } }
+@media (max-width: 423px) {
+  .myContactIcon i {
+    font-size: 20px; }
+
+  .myContactDetails {
+    font-size: 14px; }
+
+  .myLinkedIn {
+    top: 65px; }
+
+  .myTwitter {
+    top: 35px; }
+
+  .myGitHub {
+    top: 5px; } }
 
 /*# sourceMappingURL=app.css.map */
