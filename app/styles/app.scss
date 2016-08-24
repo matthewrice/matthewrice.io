@@ -620,9 +620,78 @@ img {
   }
 }
 
+@media (max-width: 1300px){
+  .resume{
+    .resumeContainer{
+      padding-top: 15px;
+      padding-bottom: 10px;
+      font-size: 35px;
+    }
+  }
+}
+
+@media (max-width: 1100px){
+  .resume{
+    .resumeContainer{
+      padding-top: 13px;
+      padding-bottom: 9px;
+      font-size: 32px;
+    }
+  }
+}
+
+@media (max-width: 900px){
+  .resume{
+    .resumeContainer{
+      font-size: 28px;
+    }
+  }
+}
+
+@media (max-width: 750px){
+  .resume{
+    .resumeContainer{
+      font-size: 26px;
+    }
+  }
+}
+
+@media (max-width: 600px){
+  .resume{
+    .resumeContainer{
+      font-size: 24px;
+    }
+  }
+}
+
+@media (max-width: 450px){
+  .resume{
+    .resumeContainer{
+      font-size: 22px;
+    }
+  }
+}
+
+@media (max-width: 400px){
+  .resume{
+    .resumeContainer{
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 360px){
+  .resume{
+    .resumeContainer{
+      font-size: 18px;
+    }
+  }
+}
+
 .digitalResume{
   background-color: rgb(255,255,255);
   padding: 10px;
+  padding-top: 0;
 }
 
 .skillsTitle,
@@ -635,6 +704,62 @@ img {
   margin-top: 15px;
   margin-bottom: 15px;
 }
+
+@media (max-width: 1220px){
+  .skillsTitle,
+  .educationTitle{
+    font-size: 28px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+  }
+}
+
+@media (max-width: 1000px){
+  .skillsTitle,
+  .educationTitle{
+    font-size: 26px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+  }
+}
+
+@media (max-width: 991px){
+  .digitalResume{
+    padding-top: 10px;
+  }
+
+  .skills{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .education{
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 750px){
+  .skillsTitle,
+  .educationTitle{
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 600px){
+  .skillsTitle,
+  .educationTitle{
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 500px){
+  .skillsTitle,
+  .educationTitle{
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+}
+
 
 .education,
 .skills{
@@ -661,9 +786,52 @@ img {
   }
 }
 
+@media (max-width: 1100px){
+  .skills{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 900px){
+  .skills{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 652px){
+  .skills{
+    font-size: 14px;
+  }
+
+  .skillsList{
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 470px){
+  .skills{
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 415px){
+  .skills{
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 360px){
+  .skills{
+    font-size: 10px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 .theIronYardLogo{
   margin-top: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   padding: 0;
 }
 
@@ -672,8 +840,9 @@ img {
   font-size: 20px;
   color: rgb(82,81,89);
   text-align: center;
-  padding-top: 25px;
+  padding-top: 40px;
   padding-left: 0;
+  padding-right: 0;
 
   .theIronYardTitle{
     font-weight: bold;
@@ -683,6 +852,172 @@ img {
     font-size: 15px;
   }
 }
+
+@media (max-width: 1329px){
+  .theIronYardExperience{
+    padding-top: 35px;
+  }
+}
+
+@media (max-width: 1262px){
+  .theIronYardExperience{
+    padding-top: 32px;
+  }
+}
+
+@media (max-width: 1195px){
+  .theIronYardExperience{
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 1100px){
+  .theIronYardExperience{
+    padding-top: 28px;
+  }
+}
+
+@media (max-width: 830px){
+  .theIronYardExperience{
+    padding-top: 24px;
+  }
+
+  .theIronYardTitle{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 767px){
+  .theIronYardExperience{
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 665px){
+  .theIronYardExperience{
+    padding-top: 16px;
+  }
+}
+
+@media (max-width: 652px){
+  .education{
+    padding:0;
+  }
+  .theIronYardExperience{
+    padding-top: 28px;
+    line-height: 18px;
+
+    .theIronYardTitle{
+      font-size: 16px;
+    }
+
+    .theIronYardDate{
+      font-size: 12px;
+    }
+  }
+}
+
+@media (max-width: 600px){
+  .theIronYardExperience{
+    padding-top: 25px;
+  }
+}
+
+@media (max-width: 540px){
+  .theIronYardExperience{
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 502px){
+  .theIronYardLogo{
+    width: 100px;
+    display: inline-block;
+    margin-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+  }
+
+  .theIronYardExperience{
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 0;
+    width: 60%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 437px){
+  .theIronYardExperience{
+    width: 60%;
+    margin: 0;
+  }
+}
+
+@media (max-width: 416px){
+  .theIronYardLogo{
+    width: 90px;
+  }
+
+  .theIronYardExperience{
+    width: 68%;
+    padding-top: 25px;
+  }
+}
+
+@media (max-width: 392px){
+  .theIronYardExperience{
+    width: 60%;
+    padding-top: 25px;
+
+    .theIronYardTitle{
+      font-size: 14px;
+    }
+
+    .theIronYardDate{
+      font-size: 10px;
+    }
+  }
+}
+
+@media (max-width: 360px){
+  .theIronYardExperience{
+    width: 65%;
+    padding-top: 25px;
+
+    .theIronYardTitle{
+      font-size: 14px;
+    }
+
+    .theIronYardDate{
+      font-size: 10px;
+    }
+  }
+}
+
+@media (max-width: 358px){
+  .theIronYardLogo{
+    padding-left: 15px;
+    width: 70px;
+  }
+}
+
+@media (max-width: 329px){
+  .theIronYardExperience{
+    width: 70%;
+    padding-top: 22px;
+  }
+}
+
+@media (max-width: 325px){
+  .theIronYardLogo{
+    padding-left: 15px;
+    width: 65px;
+  }
+}
+
+
 
 .fullResumeContainer{
   margin-top: 30px;
@@ -704,6 +1039,30 @@ img {
 
     &:hover{
       background-color: rgb(73,73,73);
+    }
+  }
+}
+
+@media (max-width: 1100px){
+  .fullResumeContainer{
+    .fullResume{
+      font-size: 18px;
+    }
+  }
+}
+
+@media (max-width: 800px){
+  .fullResumeContainer{
+    .fullResume{
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 650px){
+  .fullResumeContainer{
+    .fullResume{
+      font-size: 14px;
     }
   }
 }
