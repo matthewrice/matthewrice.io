@@ -22,6 +22,13 @@ img {
   }
 }
 
+@media (max-width: 450px){
+  .myContainer{
+    margin-right: 0 auto;
+    padding-right: 0;
+  }
+}
+
 
 //////////////////////////////// NAV BAR /////////////////////////////////////
 .myNavBar{
@@ -1087,19 +1094,87 @@ img {
   }
 }
 
+@media (max-width: 1300px){
+  .about{
+    .aboutTitleContainer{
+      font-size: 35px;
+    }
+  }
+}
+
+@media (max-width: 1100px){
+  .about{
+    .aboutTitleContainer{
+      font-size: 32px;
+    }
+  }
+}
+
+@media (max-width: 1000px){
+  .about{
+    .aboutTitleContainer{
+      font-size: 30px;
+    }
+  }
+}
+
+@media (max-width: 900px){
+  .about{
+    .aboutTitleContainer{
+      font-size: 28px;
+    }
+  }
+}
+
+@media (max-width: 750px){
+  .about{
+    .aboutTitleContainer{
+      font-size: 26px;
+    }
+  }
+}
+
+@media (max-width: 600px){
+  .about{
+    .aboutTitleContainer{
+      font-size: 24px;
+    }
+  }
+}
+
+@media (max-width: 450px){
+  .about{
+    .aboutTitleContainer{
+      font-size: 22px;
+    }
+  }
+}
+
+@media (max-width: 400px){
+  .about{
+    .aboutTitleContainer{
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 360px){
+  .about{
+    .aboutTitleContainer{
+      font-size: 18px;
+    }
+  }
+}
+
 .aboutContentContainer{
   padding-left: 0;
   padding-right: 0;
   font-size: 25px;
   font-family: 'EB Garamond', serif;
-  position: relative;
-  display: table;
 }
 
 .myPhoto{
   padding-left: 0;
-  display: table-cell;
-  vertical-align: middle;
 }
 
 .aboutMe{
@@ -1123,6 +1198,317 @@ img {
 
 .aboutMeInfo{
   margin-bottom: 15px;
+}
+
+@media (max-width: 1406px){
+  .myPhoto{
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 1375px){
+  .myPhoto{
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 1372px){
+  .myPhoto{
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 1345px){
+  .myPhoto{
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 1300px){
+  .myPhoto{
+    margin-top: 0px;
+  }
+
+  .aboutContentContainer{
+    font-size: 23px;
+  }
+
+  .aboutMe{
+    padding-top: 0px;
+  }
+}
+
+@media (max-width: 1296px){
+  .myPhoto{
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 1264px){
+  .myPhoto{
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 1239px){
+  .myPhoto{
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 1200px){
+  .myPhoto{
+    margin-top: 0px;
+  }
+
+  .aboutContentContainer{
+    font-size: 21px;
+  }
+
+  .aboutMe{
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 1185px){
+  .myPhoto{
+    margin-top: 10px;
+  }
+
+  .about{
+    padding-bottom: 60px;
+  }
+
+  .aboutMe{
+    padding-top: 0px;
+  }
+}
+
+@media (max-width: 1156px){
+  .myPhoto{
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 1150px){
+  .about{
+    padding-bottom: 55px;
+  }
+}
+
+@media (max-width: 1133px){
+  .myPhoto{
+    margin-top: 45px;
+  }
+}
+
+@media (max-width: 1100px){
+  .myPhoto{
+    margin-top: 0px;
+  }
+
+  .aboutContentContainer{
+    line-height: 22px;
+  }
+
+  .aboutMeInfo{
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 1075px){
+  .myPhoto{
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 1050px){
+  .myPhoto{
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 1000px){
+  .myPhoto{
+    margin-top: 15px;
+  }
+
+  .about{
+    padding-bottom: 45px;
+  }
+}
+
+@media (max-width: 960px){
+  .myPhoto{
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 930px){
+  .myPhoto{
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 912px){
+  .myPhoto{
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 900px){
+  .aboutContentContainer{
+    font-size: 19px;
+  }
+
+  .myPhoto{
+    padding-right: 0;
+    margin-top: 18px;
+  }
+}
+
+@media (max-width: 875px){
+  .myPhoto{
+    margin-top: 22px;
+  }
+}
+
+@media (max-width: 850px){
+  .myPhoto{
+    margin-top: 26px;
+  }
+}
+
+@media (max-width: 844px){
+  .myPhoto{
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 820px){
+  .myPhoto{
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 800px){
+  .aboutContentContainer{
+    font-size: 18px;
+  }
+
+  .myPhoto{
+    margin-top: 45px;
+  }
+}
+
+@media (max-width: 775px){
+  .myPhoto{
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 750px){
+  .myPhoto{
+    margin-top: 55px;
+  }
+}
+
+@media (max-width: 725px){
+  .myPhoto{
+    margin-top: 65px;
+  }
+}
+
+@media (max-width: 700px){
+  .aboutContentContainer{
+    font-size: 16px;
+  }
+
+  .myPhoto{
+    margin-top: 62px;
+  }
+}
+
+@media (max-width: 650px){
+  .myPhoto{
+    margin-top: 70px;
+  }
+}
+
+@media (max-width: 625px){
+  .myPhoto{
+    margin-top: 75px;
+  }
+}
+
+@media (max-width: 613px){
+  .myPhoto{
+    margin-top: 90px;
+  }
+}
+
+@media (max-width: 613px){
+  .myPhoto{
+    margin-top: 105px;
+  }
+}
+
+@media (max-width: 550px){
+  .myPhoto{
+    margin-top: 110px;
+  }
+}
+
+@media (max-width: 525px){
+  .aboutContentContainer{
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .aboutMeInfo{
+    margin-bottom: 8px;
+  }
+
+  .myPhoto{
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 500px){
+  .myPhoto{
+    margin-top: 92px;
+  }
+}
+
+@media (max-width: 475px){
+  .myPhoto{
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 450px){
+  .aboutContentContainer{
+    font-size: 12px;
+  }
+
+  .myPhoto{
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 425px){
+  .myPhoto{
+    width: 50%;
+    margin-top: 5px;
+    margin-left: 15vw;
+    margin-bottom: 15px;
+  }
+
+  .aboutContentContainer{
+    width: 100%;
+    text-align: justify;
+    margin-left: 12vw;
+  }
 }
 
 
