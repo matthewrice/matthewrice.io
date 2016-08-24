@@ -22,12 +22,12 @@ img {
   }
 }
 
-@media (max-width: 450px){
-  .myContainer{
-    margin-right: 0 auto;
-    padding-right: 0;
-  }
-}
+// @media (max-width: 450px){
+//   .myContainer{
+//     margin-right: 0 auto;
+//     padding-right: 0;
+//   }
+// }
 
 
 //////////////////////////////// NAV BAR /////////////////////////////////////
@@ -157,10 +157,18 @@ img {
   }
 }
 
+@media(max-width: 1060px){
+  .intro{
+    .introContent{
+      padding-top: 33vh;
+    }
+  }
+}
+
 @media(max-width: 995px){
   .intro{
     .introContent{
-      padding-top: 36vh;
+      padding-top: 35vh;
     }
   }
 }
@@ -168,15 +176,17 @@ img {
 @media(max-width: 860px){
   .intro{
     .introContent{
-      padding-top: 37vh;
+      padding-top: 36vh;
     }
   }
 }
 
 @media(max-width: 700px){
   .intro{
+    height: 80vh;
+
     .introContent{
-      padding-top: 38vh;
+      padding-top: 27vh;
     }
   }
 }
@@ -184,16 +194,17 @@ img {
 @media(max-width: 600px){
   .intro{
     .introContent{
-      padding-top: 40vh;
+      padding-top: 29vh;
     }
   }
 }
 
 @media(max-width: 542px){
   .intro{
+    height: 70vh;
+
     .introContent{
-      padding-top: 41vh;
-      margin-left: 5vw;
+      padding-top: 25vh;
     }
   }
 }
@@ -201,40 +212,33 @@ img {
 @media(max-width: 486px){
   .intro{
     .introContent{
-      padding-top: 42vh;
+      padding-top: 26vh;
     }
   }
 }
 
-@media(max-width: 431px){
+@media(max-width: 400px){
   .intro{
+    height: 60vh;
+
     .introContent{
-      padding-top: 43vh;
+      padding-top: 23vh;
     }
   }
 }
 
-@media(max-width: 414px){
+@media (max-width: 360px){
   .intro{
     .introContent{
-      padding-top: 44vh;
+      padding-top: 24vh;
     }
   }
 }
 
-@media(max-width: 360px){
+@media (max-width: 333px){
   .intro{
     .introContent{
-      padding-top: 45vh;
-      margin-left: 6vw;
-    }
-  }
-}
-
-@media(max-width: 333px){
-  .intro{
-    .introContent{
-      padding-top: 46vh;
+      padding-top: 24.5vh;
     }
   }
 }
