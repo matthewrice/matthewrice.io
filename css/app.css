@@ -5769,10 +5769,6 @@ img {
 .wrapper a {
   text-decoration: none; }
 
-@media (max-width: 450px) {
-  .myContainer {
-    margin-right: 0 auto;
-    padding-right: 0; } }
 .myNavBar {
   background-color: #525159;
   width: 100%; }
@@ -5845,38 +5841,42 @@ img {
 @media (max-width: 1200px) {
   .intro .introContent {
     padding-top: 34vh; } }
+@media (max-width: 1060px) {
+  .intro .introContent {
+    padding-top: 33vh; } }
 @media (max-width: 995px) {
   .intro .introContent {
-    padding-top: 36vh; } }
+    padding-top: 35vh; } }
 @media (max-width: 860px) {
   .intro .introContent {
-    padding-top: 37vh; } }
+    padding-top: 36vh; } }
 @media (max-width: 700px) {
-  .intro .introContent {
-    padding-top: 38vh; } }
+  .intro {
+    height: 80vh; }
+    .intro .introContent {
+      padding-top: 27vh; } }
 @media (max-width: 600px) {
   .intro .introContent {
-    padding-top: 40vh; } }
+    padding-top: 29vh; } }
 @media (max-width: 542px) {
-  .intro .introContent {
-    padding-top: 41vh;
-    margin-left: 5vw; } }
+  .intro {
+    height: 70vh; }
+    .intro .introContent {
+      padding-top: 25vh; } }
 @media (max-width: 486px) {
   .intro .introContent {
-    padding-top: 42vh; } }
-@media (max-width: 431px) {
-  .intro .introContent {
-    padding-top: 43vh; } }
-@media (max-width: 414px) {
-  .intro .introContent {
-    padding-top: 44vh; } }
+    padding-top: 26vh; } }
+@media (max-width: 400px) {
+  .intro {
+    height: 60vh; }
+    .intro .introContent {
+      padding-top: 23vh; } }
 @media (max-width: 360px) {
   .intro .introContent {
-    padding-top: 45vh;
-    margin-left: 6vw; } }
+    padding-top: 24vh; } }
 @media (max-width: 333px) {
   .intro .introContent {
-    padding-top: 46vh; } }
+    padding-top: 24.5vh; } }
 .myName,
 .jobTitle {
   color: #0082d6;
