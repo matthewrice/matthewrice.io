@@ -5782,11 +5782,9 @@ img {
     margin-right: 5vw; }
 
 .navBarContent a {
-  color: #0082d6;
-  text-shadow: 1px 2px black;
-  font-family: 'Cinzel', serif; }
-  .navBarContent a:hover {
-    text-shadow: 0px 0px; }
+  color: white;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500; }
 
 @media (max-width: 725px) {
   .navBarContent {
@@ -5827,61 +5825,81 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
-  width: 100%; }
+  width: 100%;
+  position: relative; }
   .intro .introContent {
-    padding-top: 25vh;
+    padding-top: 32vh;
     text-align: center; }
+
+.intro:before {
+  content: "";
+  position: absolute;
+  /*allows me to stretch the image across the entire screen*/
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(82, 81, 89, 0.4); }
 
 @media (max-width: 1380px) {
   .intro .introContent {
-    padding-top: 30vh; } }
+    padding-top: 34vh; } }
 @media (max-width: 1300px) {
   .intro .introContent {
-    padding-top: 32vh; } }
+    padding-top: 36vh; } }
 @media (max-width: 1200px) {
   .intro .introContent {
-    padding-top: 34vh; } }
+    padding-top: 39vh; } }
+@media (max-width: 1100px) {
+  .intro .introContent {
+    padding-top: 38vh; } }
 @media (max-width: 1060px) {
   .intro .introContent {
-    padding-top: 33vh; } }
+    padding-top: 38vh; } }
 @media (max-width: 995px) {
   .intro .introContent {
-    padding-top: 35vh; } }
-@media (max-width: 860px) {
+    padding-top: 40vh; } }
+@media (max-width: 855px) {
   .intro .introContent {
-    padding-top: 36vh; } }
+    padding-top: 41vh; } }
 @media (max-width: 700px) {
   .intro {
     height: 80vh; }
     .intro .introContent {
-      padding-top: 27vh; } }
+      padding-top: 31.5vh; } }
 @media (max-width: 600px) {
   .intro .introContent {
-    padding-top: 29vh; } }
+    padding-top: 32.5vh; } }
 @media (max-width: 542px) {
   .intro {
     height: 70vh; }
     .intro .introContent {
-      padding-top: 25vh; } }
+      padding-top: 28vh; } }
 @media (max-width: 486px) {
   .intro .introContent {
-    padding-top: 26vh; } }
+    padding-top: 29vh; } }
+@media (max-width: 431px) {
+  .intro .introContent {
+    padding-top: 30vh; } }
+@media (max-width: 414px) {
+  .intro .introContent {
+    padding-top: 31.5vh; } }
 @media (max-width: 400px) {
   .intro {
     height: 60vh; }
     .intro .introContent {
-      padding-top: 23vh; } }
+      padding-top: 25.5vh; } }
 @media (max-width: 360px) {
   .intro .introContent {
-    padding-top: 24vh; } }
+    padding-top: 25vh; } }
 @media (max-width: 333px) {
   .intro .introContent {
-    padding-top: 24.5vh; } }
+    padding-top: 25.5vh; } }
 .myName,
 .jobTitle {
-  color: #0082d6;
-  text-shadow: 1px 2px black;
-  font-family: 'Cinzel', serif;
+  color: white;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
   text-decoration: none; }
 
 .myName {
@@ -5931,8 +5949,7 @@ img {
     font-size: 45px; }
 
   .jobTitle {
-    font-size: 18px;
-    text-shadow: 1px 1px black; } }
+    font-size: 18px; } }
 @media (max-width: 542px) {
   .myName {
     font-size: 40px; } }
@@ -5964,17 +5981,13 @@ img {
   padding-bottom: 15px;
   background-color: #525159; }
   .portfolio .portfolioTitleContainer {
-    color: #0082d6;
-    text-shadow: 1px 2px black;
-    font-family: 'Cinzel', serif;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
     font-size: 40px;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 10px; }
-  .portfolio .myPortfolio img {
-    padding: 7.5px; }
-    .portfolio .myPortfolio img:hover {
-      box-shadow: 0 0 20px #c6c6c6; }
 
 @media (max-width: 1300px) {
   .portfolio .portfolioTitleContainer {
@@ -6039,73 +6052,233 @@ img {
     .portfolio .portfolioTitleContainer .briefcaseIcon,
     .portfolio .portfolioTitleContainer .portfolioTitle {
       font-size: 18px; } }
-.viewCode {
-  margin-top: 5px;
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default; }
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  margin-top: 20px;
+  font-family: 'Rajdhani', sans-serif; }
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in; }
+
+.hovereffect:hover img {
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /><feGaussianBlur stdDeviation="3" /></filter></svg>#filter');
+  filter: grayscale(1) blur(3px);
+  -webkit-filter: grayscale(1) blur(3px);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2); }
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: #525159; }
+
+.hovereffect a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  border: 1px solid #fff;
+  margin: 50px 0 0 0;
+  background: #525159;
+  font-family: 'Rajdhani', sans-serif; }
+
+.hovereffect a.info:hover {
+  box-shadow: 0 0 5px #fff; }
+
+.hovereffect a.info, .hovereffect h2 {
+  -webkit-transform: scale(0.7);
+  transform: scale(0.7);
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  color: #fff;
+  text-transform: uppercase; }
+
+.hovereffect:hover a.info, .hovereffect:hover h2 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  transform: scale(1); }
+
+@media (max-width: 1300px) {
+  .hovereffect .overlay {
+    margin-top: 12px; }
+
+  .hovereffect a.info {
+    margin: 45px 0 0 0; } }
+@media (max-width: 1200px) {
+  .hovereffect .overlay {
+    margin-top: 10px; }
+
+  .hovereffect h2 {
+    font-size: 16px;
+    padding: 9px; }
+
+  .hovereffect a.info {
+    font-size: 13px;
+    padding: 6px 13px; } }
+@media (max-width: 1100px) {
+  .hovereffect .overlay {
+    margin-top: 0px; }
+
+  .hovereffect a.info {
+    margin: 40px 0 0 0; } }
+@media (max-width: 1000px) {
+  .hovereffect h2 {
+    font-size: 14px;
+    padding: 8px; }
+
+  .hovereffect a.info {
+    font-size: 11px;
+    padding: 5px 12px; } }
+@media (max-width: 900px) {
+  .hovereffect a.info {
+    margin: 30px 0 0 0; } }
+@media (max-width: 800px) {
+  .hovereffect .overlay {
+    top: -5px; }
+
+  .hovereffect h2 {
+    font-size: 13px;
+    padding: 7px; }
+
+  .hovereffect a.info {
+    font-size: 12px;
+    padding: 4px 11px;
+    margin: 25px 0 0 0; } }
+@media (max-width: 767px) {
+  .hovereffect .overlay {
+    margin-top: 20px; }
+
+  .hovereffect h2 {
+    font-size: 17px;
+    padding: 10px; }
+
+  .hovereffect a.info {
+    font-size: 16px;
+    padding: 5px 11px;
+    margin: 50px 0 0 0; } }
+@media (max-width: 600px) {
+  .hovereffect .overlay {
+    margin-top: 15px; }
+
+  .hovereffect h2 {
+    font-size: 14px;
+    padding: 9px; }
+
+  .hovereffect a.info {
+    font-size: 13px;
+    margin: 40px 0 0 0; } }
+@media (max-width: 500px) {
+  .hovereffect .overlay {
+    margin-top: 12px; }
+
+  .hovereffect h2 {
+    font-size: 13px; }
+
+  .hovereffect a.info {
+    font-size: 12px;
+    margin: 35px 0 0 0; } }
+@media (max-width: 450px) {
+  .hovereffect .overlay {
+    margin-top: 0px; }
+
+  .hovereffect a.info {
+    margin: 25px 0 0 0; } }
+@media (max-width: 400px) {
+  .hovereffect h2 {
+    padding: 5px; }
+
+  .hovereffect a.info {
+    padding: 3px 9px; } }
+@media (max-width: 350px) {
+  .hovereffect h2 {
+    font-size: 10px; }
+
+  .hovereffect a.info {
+    font-size: 9px;
+    margin: 15px 0 0 0; } }
+.viewCode,
+.viewCodeXS {
+  margin-top: 15px;
   margin-bottom: 25px;
   text-align: center; }
-  .viewCode a {
-    font-size: 20px;
-    font-family: 'Cinzel', serif;
-    color: #0082d6;
-    text-shadow: 1px 2px black; }
-    .viewCode a:hover {
-      text-shadow: 0px 0px; }
+  .viewCode a,
+  .viewCodeXS a {
+    font-size: 16px;
+    font-family: 'Rajdhani', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid white;
+    background: #525159; }
 
-@media (max-width: 725px) {
+@media (max-width: 1200px) {
+  .viewCode a {
+    font-size: 13px; } }
+@media (max-width: 1100px) {
   .viewCode {
-    margin-top: 5px;
-    margin-bottom: 20px;
-    text-align: center; }
-    .viewCode a {
-      font-size: 18px;
-      font-family: 'Cinzel', serif;
-      color: #0082d6;
-      text-shadow: 1px 2px black; }
-      .viewCode a:hover {
-        text-shadow: 0px 0px; } }
-@media (max-width: 620px) {
-  .viewCode {
-    margin-top: 5px;
-    margin-bottom: 15px;
-    text-align: center; }
-    .viewCode a {
+    margin-top: 10px;
+    margin-bottom: 30px; } }
+@media (max-width: 1000px) {
+  .viewCode a {
+    font-size: 12px;
+    padding: 4px 18px; } }
+@media (max-width: 800px) {
+  .viewCode a {
+    padding: 3px 16px; } }
+@media (max-width: 767px) {
+  .viewCodeXS {
+    margin-top: 15px;
+    margin-bottom: 40px; }
+    .viewCodeXS a {
       font-size: 16px;
-      font-family: 'Cinzel', serif;
-      color: #0082d6;
-      text-shadow: 1px 2px black; }
-      .viewCode a:hover {
-        text-shadow: 0px 0px; } }
-@media (max-width: 520px) {
-  .viewCode {
-    margin-top: 4px;
-    margin-bottom: 12px;
-    text-align: center; }
-    .viewCode a {
-      font-size: 14px;
-      font-family: 'Cinzel', serif;
-      color: #0082d6;
-      text-shadow: 1px 2px black; }
-      .viewCode a:hover {
-        text-shadow: 0px 0px; } }
-@media (max-width: 360px) {
-  .viewCode {
-    margin-top: 0px;
-    margin-bottom: 8px;
-    text-align: center; }
-    .viewCode a {
-      font-size: 12px;
-      font-family: 'Cinzel', serif;
-      color: #0082d6;
-      text-shadow: 1px 2px black; }
-      .viewCode a:hover {
-        text-shadow: 0px 0px; } }
+      padding: 5px 20px; } }
+@media (max-width: 600px) {
+  .viewCodeXS a {
+    font-size: 13px; } }
+@media (max-width: 500px) {
+  .viewCodeXS {
+    margin-top: 10px;
+    margin-bottom: 25px; }
+    .viewCodeXS a {
+      font-size: 12px; } }
+@media (max-width: 400px) {
+  .viewCodeXS a {
+    padding: 3px 16px; } }
+@media (max-width: 350px) {
+  .viewCodeXS {
+    margin-top: 3px;
+    margin-bottom: 15px; }
+    .viewCodeXS a {
+      font-size: 9px; } }
 .resume {
-  background-color: #c6c6c6;
+  background-color: rgba(82, 81, 89, 0.6);
   padding-bottom: 50px; }
   .resume .resumeContainer {
     color: white;
-    text-shadow: 1px 2px black;
-    font-family: 'Cinzel', serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
     font-size: 40px;
     text-align: center;
     padding-top: 10px;
@@ -6146,8 +6319,8 @@ img {
 
 .skillsTitle,
 .educationTitle {
-  font-family: 'Cinzel', serif;
-  font-weight: bold;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
   letter-spacing: 5px;
   color: #525159;
   font-size: 30px;
@@ -6201,7 +6374,8 @@ img {
 .skills {
   text-align: center;
   font-size: 20px;
-  font-family: 'Cinzel', serif; }
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500; }
   .skills a {
     color: #525159; }
     .skills a:hover {
@@ -6237,7 +6411,8 @@ img {
   padding: 0; }
 
 .theIronYardExperience {
-  font-family: 'Cinzel', serif;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
   font-size: 20px;
   color: #525159;
   text-align: center;
@@ -6350,18 +6525,20 @@ img {
   text-align: center; }
   .fullResumeContainer .fullResume {
     color: #525159;
-    font-family: 'Cinzel', serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
     font-size: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    border-radius: 5px;
     background-color: #525159;
-    color: white;
-    text-shadow: 1px 2px black; }
+    color: white; }
     .fullResumeContainer .fullResume:hover {
-      background-color: #494949; }
+      background-color: white;
+      color: #525159;
+      border: 1px solid #525159;
+      font-weight: bold; }
 
 @media (max-width: 1100px) {
   .fullResumeContainer .fullResume {
@@ -6376,14 +6553,14 @@ img {
   background-color: #525159;
   padding-bottom: 70px; }
   .about .aboutTitleContainer {
-    color: #0082d6;
-    text-shadow: 1px 2px black;
+    color: white;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 40px; }
     .about .aboutTitleContainer .aboutTitle {
-      font-family: 'Cinzel', serif; }
+      font-family: 'Rajdhani', sans-serif;
+      font-weight: 500; }
 
 @media (max-width: 1300px) {
   .about .aboutTitleContainer {
@@ -6416,59 +6593,63 @@ img {
   padding-left: 0;
   padding-right: 0;
   font-size: 25px;
-  font-family: 'EB Garamond', serif; }
+  font-family: 'Rajdhani', sans-serif; }
 
 .myPhoto {
-  padding-left: 0; }
+  padding-left: 0;
+  margin-top: 45px; }
 
 .aboutMe {
   padding-top: 10px;
   padding-right: 0;
-  color: black; }
+  color: white; }
   .aboutMe a {
-    color: black; }
+    color: white; }
     .aboutMe a .hereLink {
-      color: #0082d6;
-      text-shadow: 1px 2px black; }
-      .aboutMe a .hereLink:hover {
-        text-decoration: underline; }
+      color: #0082d6; }
 
 .aboutMeInfo {
   margin-bottom: 15px; }
 
 @media (max-width: 1406px) {
   .myPhoto {
-    margin-top: 15px; } }
+    margin-top: 53px; } }
 @media (max-width: 1375px) {
   .myPhoto {
-    margin-top: 25px; } }
-@media (max-width: 1372px) {
+    margin-top: 56px; } }
+@media (max-width: 1350px) {
   .myPhoto {
-    margin-top: 40px; } }
-@media (max-width: 1345px) {
+    margin-top: 58px; } }
+@media (max-width: 1340px) {
   .myPhoto {
     margin-top: 60px; } }
+@media (max-width: 1315px) {
+  .myPhoto {
+    margin-top: 65px; } }
 @media (max-width: 1300px) {
   .myPhoto {
-    margin-top: 0px; }
+    margin-top: 38px; }
 
   .aboutContentContainer {
     font-size: 23px; }
 
   .aboutMe {
     padding-top: 0px; } }
-@media (max-width: 1296px) {
+@media (max-width: 1280px) {
   .myPhoto {
-    margin-top: 10px; } }
+    margin-top: 40px; } }
 @media (max-width: 1264px) {
   .myPhoto {
-    margin-top: 30px; } }
+    margin-top: 44px; } }
 @media (max-width: 1239px) {
+  .myPhoto {
+    margin-top: 46px; } }
+@media (max-width: 1215px) {
   .myPhoto {
     margin-top: 50px; } }
 @media (max-width: 1200px) {
   .myPhoto {
-    margin-top: 0px; }
+    margin-top: 44px; }
 
   .aboutContentContainer {
     font-size: 21px; }
@@ -6477,7 +6658,7 @@ img {
     padding-top: 10px; } }
 @media (max-width: 1185px) {
   .myPhoto {
-    margin-top: 10px; }
+    margin-top: 36px; }
 
   .about {
     padding-bottom: 60px; }
@@ -6486,10 +6667,7 @@ img {
     padding-top: 0px; } }
 @media (max-width: 1156px) {
   .myPhoto {
-    margin-top: 30px; } }
-@media (max-width: 1150px) {
-  .about {
-    padding-bottom: 55px; } }
+    margin-top: 40px; } }
 @media (max-width: 1133px) {
   .myPhoto {
     margin-top: 45px; } }
@@ -6504,25 +6682,28 @@ img {
     margin-bottom: 10px; } }
 @media (max-width: 1075px) {
   .myPhoto {
-    margin-top: 5px; } }
+    margin-top: 2px; } }
 @media (max-width: 1050px) {
   .myPhoto {
-    margin-top: 10px; } }
+    margin-top: 8px; } }
 @media (max-width: 1000px) {
   .myPhoto {
-    margin-top: 15px; }
+    margin-top: 12px; }
 
   .about {
     padding-bottom: 45px; } }
+@media (max-width: 987px) {
+  .myPhoto {
+    margin-top: 26px; } }
 @media (max-width: 960px) {
   .myPhoto {
-    margin-top: 20px; } }
+    margin-top: 30px; } }
 @media (max-width: 930px) {
   .myPhoto {
     margin-top: 35px; } }
 @media (max-width: 912px) {
   .myPhoto {
-    margin-top: 40px; } }
+    margin-top: 38px; } }
 @media (max-width: 900px) {
   .aboutContentContainer {
     font-size: 19px; }
@@ -6530,54 +6711,69 @@ img {
   .myPhoto {
     padding-right: 0;
     margin-top: 18px; } }
+@media (max-width: 896px) {
+  .myPhoto {
+    margin-top: 28px; } }
 @media (max-width: 875px) {
   .myPhoto {
-    margin-top: 22px; } }
+    margin-top: 31px; } }
+@media (max-width: 860px) {
+  .myPhoto {
+    margin-top: 34px; } }
 @media (max-width: 850px) {
   .myPhoto {
-    margin-top: 26px; } }
-@media (max-width: 844px) {
+    margin-top: 36px; } }
+@media (max-width: 840px) {
   .myPhoto {
-    margin-top: 35px; } }
-@media (max-width: 820px) {
+    margin-top: 38px; } }
+@media (max-width: 826px) {
   .myPhoto {
-    margin-top: 40px; } }
+    margin-top: 49px; } }
 @media (max-width: 800px) {
   .aboutContentContainer {
     font-size: 18px; }
 
   .myPhoto {
-    margin-top: 45px; } }
+    margin-top: 43px; } }
+@media (max-width: 784px) {
+  .myPhoto {
+    margin-top: 56px; } }
 @media (max-width: 775px) {
   .myPhoto {
-    margin-top: 50px; } }
-@media (max-width: 750px) {
+    margin-top: 58px; } }
+@media (max-width: 756px) {
   .myPhoto {
-    margin-top: 55px; } }
-@media (max-width: 725px) {
+    margin-top: 70px; } }
+@media (max-width: 740px) {
   .myPhoto {
-    margin-top: 65px; } }
+    margin-top: 85px; } }
 @media (max-width: 700px) {
   .aboutContentContainer {
     font-size: 16px; }
 
   .myPhoto {
-    margin-top: 62px; } }
+    margin-top: 70px; } }
+@media (max-width: 674px) {
+  .myPhoto {
+    margin-top: 82px; } }
+@media (max-width: 660px) {
+  .myPhoto {
+    margin-top: 94px; } }
 @media (max-width: 650px) {
   .myPhoto {
-    margin-top: 70px; } }
-@media (max-width: 625px) {
+    margin-top: 97px; } }
+@media (max-width: 630px) {
   .myPhoto {
-    margin-top: 75px; } }
-@media (max-width: 613px) {
-  .myPhoto {
-    margin-top: 90px; } }
-@media (max-width: 613px) {
+    margin-top: 100px; } }
+@media (max-width: 600px) {
   .myPhoto {
     margin-top: 105px; } }
-@media (max-width: 550px) {
+@media (max-width: 581px) {
   .myPhoto {
-    margin-top: 110px; } }
+    margin-top: 115px; } }
+@media (max-width: 557px) {
+  .myPhoto {
+    margin-top: 130px; } }
 @media (max-width: 525px) {
   .aboutContentContainer {
     font-size: 14px;
@@ -6588,23 +6784,29 @@ img {
 
   .myPhoto {
     margin-top: 80px; } }
-@media (max-width: 500px) {
+@media (max-width: 512px) {
   .myPhoto {
-    margin-top: 92px; } }
-@media (max-width: 475px) {
+    margin-top: 90px; } }
+@media (max-width: 490px) {
   .myPhoto {
-    margin-top: 100px; } }
+    margin-top: 104px; } }
+@media (max-width: 457px) {
+  .myPhoto {
+    margin-top: 108px; } }
 @media (max-width: 450px) {
   .aboutContentContainer {
     font-size: 12px; }
 
   .myPhoto {
-    margin-top: 80px; } }
+    margin-top: 88px; } }
+@media (max-width: 442px) {
+  .myPhoto {
+    margin-top: 100px; } }
 @media (max-width: 425px) {
   .myPhoto {
     width: 50%;
     margin-top: 5px;
-    margin-left: 15vw;
+    margin-left: 13vw;
     margin-bottom: 15px; }
 
   .aboutContentContainer {
@@ -6612,14 +6814,14 @@ img {
     text-align: justify;
     margin-left: 16vw; } }
 .contactMe {
-  background-color: #c6c6c6;
+  background-color: rgba(82, 81, 89, 0.6);
   padding-top: 10px;
   padding-bottom: 100px; }
 
 .contactMeTitle {
-  font-family: 'Cinzel', serif;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
   color: white;
-  text-shadow: 1px 2px black;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -6654,17 +6856,15 @@ img {
   .contactMeTitle {
     font-size: 18px; } }
 .contactMeInfoContainer a {
-  color: #525159; }
-  .contactMeInfoContainer a:hover {
-    color: white;
-    text-shadow: 1px 2px black; }
+  color: white; }
 
 .myContactIcon i {
   font-size: 40px; }
 
 .myContactDetails {
   font-size: 25px;
-  font-family: 'Cinzel', serif; }
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500; }
 
 .contactRowSpacer {
   margin-top: 15px;
